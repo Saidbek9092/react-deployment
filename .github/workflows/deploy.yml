@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main  # or 'master', depends on your default branch
+  pull_request:
+    branches:
+      - main  # Trigger deployment on PR merge into `main`
 
 jobs:
   build-and-deploy:
