@@ -22,7 +22,7 @@ function App() {
                 count is {count}
             </button>
             <p>
-              Added new yml file to testing
+              Checking test files
             </p>
             <p>
                 Edit <code>src/App.tsx</code> and save to test HMR
